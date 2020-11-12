@@ -388,6 +388,44 @@ h1 a,
 =================================*/
 
 /*=================================
+  details styling starts here
+=================================*/
+.details{
+  position: relative;
+  text-align: center;
+  background: url("../images/bg.jpg") no-repeat center/cover;
+  background-attachment: fixed;
+  padding: 80px 80px 70px;
+  opacity: .99;
+}
+.details::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  top:0;
+  left: 0;
+  opacity: .5;
+  z-index: -1;
+}
+.spaced-heading{
+  color: rgba(255, 255, 255, 0.363);
+}
+.spaced-heading::after {
+  height: 1px;
+  bottom: -13px;
+  background-color: rgba(255, 255, 255, 0.315);
+}
+.details .fourth-head{
+  margin-top: 25px;
+  font-weight: 400;
+  color: #fff;
+}
+/*=================================
+  details styling ends here
+=================================*/
+/*=================================
   main styling ends here
 =================================*/
 
