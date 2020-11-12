@@ -82,10 +82,6 @@ sub { bottom: -.25em; }
 .cf { *zoom: 1; }
 
 /*for all*/
-body {
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
 
 a { 
   display: inline-block;
@@ -99,9 +95,16 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  max-width: 1251px;
+  width: 98%; 
   margin: 0 auto;
+}
+/* CSS Resets */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 /*=================================
   Header styling starts here
