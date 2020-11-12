@@ -554,5 +554,55 @@ h5 {
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1000px) {
+  header .wrapper {
+    width: 87%;
+  }
+  .about {
+    padding: 40px;
+  }
+  .about-content {
+    flex-wrap: wrap;
 }
+  .about-content li {
+    width: 80%;
+    margin: 20px auto;
+}
+.test-content li {
+  width: 80%;
+  height: 300px;
+  margin: 20px auto;
+}
+.content-para {
+  text-align: center;
+}
+}
+@media only screen and (max-width: 700px){
+  .about {
+    padding: 20px 0;
+  }
+  .about-content li {
+    width: 95%;
+    margin: 10px auto;
+}
+.test-content li {
+  width: 95%;
+  height: 250px;
+  margin: 10px auto;
+}
+.testimonial{
+  padding: 20px 0;
+}
+footer {
+  padding: 33px;
+  height: auto;
+}
+.social-icons {
+  width: auto;
+  height: auto;
+  margin: 0 10px;
+}
+.social-links{
+  margin-bottom: 20px;
+}
+} 
